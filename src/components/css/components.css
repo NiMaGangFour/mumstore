@@ -61,9 +61,37 @@
 }
 
 /*-----Landing Page----*/
-.carousel {
+.carousel-header {
+  font-size: 150%;
+  font-weight: 500;
   color: white;
 }
+
+.carousel-p {
+  font-size: 150%;
+  font-weight: 500;
+  color: white;
+}
+
+.brand-section {
+  background-size: cover;
+  background-position: center;
+  width: 100vh;
+  height: 60vh;
+  /* height: 100vh; */
+  /* background-attachment: fixed; */
+}
+.bg-img-1 {
+  float: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/mumstore_logo.png);
+}
+.bg-img-2 {
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/mumstore_logo.png);
+}
+
 /*-----h----*/
 
 h1,
