@@ -17,7 +17,7 @@
 }
 .logo_white {
   height: 92px;
-  margin: auto 0px;
+  margin: 5px 0px 0px 0px;
   width: auto;
 }
 
@@ -49,6 +49,21 @@
   color: rgb(238, 123, 0);
 }
 
+/*-----Second Header----*/
+
+#sec-header {
+  background-color: #00aced;
+  color: #fff;
+  font-size: 130%;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+/*-----Landing Page----*/
+.carousel {
+  color: white;
+}
 /*-----h----*/
 
 h1,

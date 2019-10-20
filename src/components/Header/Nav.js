@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 
 import "../css/components.css";
 import Logo_White from "../css/images/mumstore_logo.png";
-
-import { NavLink } from "react-router-dom";
 
 class Nav extends Component {
   render() {
@@ -29,6 +29,21 @@ class Nav extends Component {
           </li>
           <li>
             <a>Safe is Best</a>
+          </li>
+          <li>
+            <a>
+              <FaSearch />
+            </a>
+          </li>
+          <li>
+            <a>
+              <FaShoppingCart />
+            </a>
+          </li>
+          <li>
+            <a>
+              <FaUser />
+            </a>
           </li>
         </ul>
       </div>

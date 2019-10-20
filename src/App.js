@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import Landing from "./components/Pages/Landing";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
+import News from "./components/Pages/News";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Landing} />
+
         <Route exact path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/news" component={News} />
       </Switch>
     </div>
   );
