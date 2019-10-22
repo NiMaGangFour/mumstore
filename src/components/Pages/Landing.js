@@ -5,6 +5,10 @@ import SecHeader from "../Header/SecHeader";
 import carousel_img_1 from "../css/images/carousel_img_1.png";
 import carousel_img_2 from "../css/images/carousel_img_2.png";
 import carousel_img_3 from "../css/images/carousel_img_3.png";
+import landing_category_img_01 from "../css/images/landing-category-img-01.png";
+import landing_category_img_02 from "../css/images/landing-category-img-02.png";
+import landing_category_img_03 from "../css/images/landing-category-img-03.png";
+import landing_category_img_04 from "../css/images/landing-category-img-04.png";
 
 const carousel = (
   <Carousel>
@@ -48,36 +52,77 @@ const carousel = (
 );
 
 const brandSection = (
-  <div class="categories">
-    <div class="category">
-      <a href="https://www.mumstore.com.au/all-products/brand/aptamil.html">
-        <img
-          src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Aptamil-Gold-Plus_AU.png"
-          data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Aptamil-Gold-Plus_AU.png"
-          title="aptamil"
-          alt="aptamil"
-          class="desktop"
-        />
-        <img
-          src="https://cdn.mumstore.com.au/skin/frontend/mumstore/default/images/blank.gif"
-          data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Mobile_Aptamil-Gold-Plus_AU.png"
-          title="aptamil"
-          alt="aptamil"
-          class="mobile"
-        />
-      </a>
+  <div className="categories-section">
+    <div class="categories">
+      <div class="category">
+        <a href="https://www.mumstore.com.au/all-products/brand/aptamil.html">
+          <img
+            src={landing_category_img_01}
+            title="aptamil"
+            alt="aptamil"
+            class="desktop"
+          />
+        </a>
+      </div>
+      <div class="category">
+        <a href="https://www.mumstore.com.au/all-products/brand/aptamil-profutura.html">
+          <img
+            src={landing_category_img_02}
+            data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Aptamil-Profutura_AU.png"
+            title="profutura"
+            alt="profutura"
+            class="desktop"
+          />
+        </a>
+      </div>
+      <div class="category">
+        <a href="https://www.mumstore.com.au/all-products/brand/karicare.html">
+          <img
+            src={landing_category_img_03}
+            data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Karicare_New4.jpg"
+            title=""
+            alt=""
+            class="desktop"
+          />
+        </a>
+      </div>
+      <div class="category">
+        <a href="https://www.mumstore.com.au/all-products/formula-toddler-milk/specialty.html">
+          <img
+            src={landing_category_img_04}
+            data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Specialty.jpg"
+            title="Specialty "
+            alt="Specialty"
+            class="desktop"
+          />
+        </a>
+      </div>
     </div>
   </div>
-  /* // <Container>
-  //   <Row>
-  //     <Col>
-  //       <div className="brand-section bg-img-1" />
-  //     </Col>
-  //     <Col>
-  //       <div className="brand-section bg-img-2" />
-  //     </Col>
-  //   </Row>
-  // </Container> */
+);
+
+const registSection = (
+  <div className="sign-up">
+    <div className="img-block">
+      <div className="sign-up-info">
+        <h1>Join TyreStore</h1>
+        <Container>
+          <Row>
+            <Col className="col">
+              <h1>AAAAAAA</h1>
+              <p>
+                {" "}
+                className="sig className="sig className="sig className="sig
+                className="sig
+              </p>
+            </Col>
+            <Col>2 of 3</Col>
+            <Col>3 of 3</Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  </div>
 );
 
 class Landing extends Component {
@@ -89,6 +134,7 @@ class Landing extends Component {
         <div>Landing Page</div>
         {brandSection}
         <div>Landing Page</div>
+        {registSection}
         <div>Landing Page</div>
       </div>
     );

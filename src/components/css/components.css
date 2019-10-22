@@ -78,20 +78,76 @@
   background-position: center;
   width: 100vh;
   height: 60vh;
-  /* height: 100vh; */
-  /* background-attachment: fixed; */
-}
-.bg-img-1 {
-  float: right;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/mumstore_logo.png);
-}
-.bg-img-2 {
-  float: left;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/mumstore_logo.png);
 }
 
+.categories {
+  margin-bottom: 20px;
+}
+.categories-section {
+  margin: 10px 100px 10px 100px;
+}
+
+.category {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.category img {
+  width: 100%;
+
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.category img:hover {
+  opacity: 1;
+}
+@media only screen and (min-width: 1280px) {
+  .sign-up {
+    display: block !important;
+  }
+}
+
+.sign-up {
+  padding: 0;
+  border-top: none;
+  border-bottom: none;
+  background-color: transparent;
+  display: block !important;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  font-family: "Montserrat";
+  color: #4a4b4f;
+  line-height: 1.5;
+}
+
+.img-block {
+  background-image: url("https://cdn.mumstore.com.au/media/wysiwyg/cms_images/sing-up.png");
+  background-size: cover;
+  background-position: top;
+  height: 70vh;
+  /* background-attachment: fixed; */
+  /* margin-bottom: 40px; */
+}
+
+.sign-up-info {
+  /* position: absolute; */
+  transform: translate(35%, 60%);
+  width: 65%;
+  top: 65%;
+  background-color: #e67e22;
+  opacity: 0.3;
+  height: 300px;
+  width: 900px;
+}
+
+/* .sign-up-info div {
+  background-color: aquamarine;
+} */
 /*-----h----*/
 
 h1,
