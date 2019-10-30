@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Carousel, Container, Row, Col } from "react-bootstrap";
+import { FaStar, FaShippingFast } from "react-icons/fa";
+import { FiBell } from "react-icons/fi";
 
 import SecHeader from "../Header/SecHeader";
 import carousel_img_1 from "../css/images/carousel_img_1.png";
@@ -58,8 +60,8 @@ const brandSection = (
         <a href="https://www.mumstore.com.au/all-products/brand/aptamil.html">
           <img
             src={landing_category_img_01}
-            title="aptamil"
-            alt="aptamil"
+            title="landing_category_img_01"
+            alt="landing_category_img_01"
             class="desktop"
           />
         </a>
@@ -69,8 +71,8 @@ const brandSection = (
           <img
             src={landing_category_img_02}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Aptamil-Profutura_AU.png"
-            title="profutura"
-            alt="profutura"
+            title="landing_category_img_02"
+            alt="landing_category_img_02"
             class="desktop"
           />
         </a>
@@ -80,8 +82,8 @@ const brandSection = (
           <img
             src={landing_category_img_03}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Karicare_New4.jpg"
-            title=""
-            alt=""
+            title="landing_category_img_03"
+            alt="landing_category_img_03"
             class="desktop"
           />
         </a>
@@ -91,8 +93,8 @@ const brandSection = (
           <img
             src={landing_category_img_04}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Specialty.jpg"
-            title="Specialty "
-            alt="Specialty"
+            title="landing_category_img_04"
+            alt="landing_category_img_03"
             class="desktop"
           />
         </a>
@@ -105,21 +107,30 @@ const registSection = (
   <div className="sign-up">
     <div className="img-block">
       <div className="sign-up-info">
-        <h1>Join TyreStore</h1>
+        <h2 class="title">Join TyreStore</h2>
         <Container>
           <Row>
             <Col className="col">
-              <h1>AAAAAAA</h1>
-              <p>
-                {" "}
-                className="sig className="sig className="sig className="sig
-                className="sig
+              <p className="icon">
+                <FaStar />
               </p>
+              <h3>SAVE TO MY FAVOURIES</h3>
             </Col>
-            <Col>2 of 3</Col>
-            <Col>3 of 3</Col>
+            <Col>
+              <p className="icon">
+                <FiBell />
+              </p>
+              <h3>HEAR ABOUT PROMOTIONS</h3>
+            </Col>
+            <Col>
+              <p className="icon">
+                <FaShippingFast />
+              </p>
+              <h3>TRACK YOUR ORDERS</h3>
+            </Col>
           </Row>
         </Container>
+        <h2>Join TyreStore</h2>
       </div>
     </div>
   </div>
