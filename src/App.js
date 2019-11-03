@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
@@ -10,7 +9,7 @@ import Landing from "./components/Pages/Landing";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import News from "./components/Pages/News";
-import MessageWedge from "./components/component/MessageWedge";
+import MessageWedge from "./components/UI/MessageWedge";
 
 function App() {
   return (

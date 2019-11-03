@@ -11,6 +11,7 @@ import landing_category_img_01 from "../css/images/landing-category-img-01.png";
 import landing_category_img_02 from "../css/images/landing-category-img-02.png";
 import landing_category_img_03 from "../css/images/landing-category-img-03.png";
 import landing_category_img_04 from "../css/images/landing-category-img-04.png";
+import Btn from "../UI/Btn";
 
 const carousel = (
   <Carousel>
@@ -55,59 +56,62 @@ const carousel = (
 
 const brandSection = (
   <div className="categories-section">
-    <div class="categories">
-      <div class="category">
+    <div className="categories">
+      <div className="category">
         <a href="https://www.mumstore.com.au/all-products/brand/aptamil.html">
           <img
             src={landing_category_img_01}
             title="landing_category_img_01"
             alt="landing_category_img_01"
-            class="desktop"
+            className="desktop"
           />
         </a>
       </div>
-      <div class="category">
+      <div className="category">
         <a href="https://www.mumstore.com.au/all-products/brand/aptamil-profutura.html">
           <img
             src={landing_category_img_02}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Aptamil-Profutura_AU.png"
             title="landing_category_img_02"
             alt="landing_category_img_02"
-            class="desktop"
+            className="desktop"
           />
         </a>
       </div>
-      <div class="category">
+      <div className="category">
         <a href="https://www.mumstore.com.au/all-products/brand/karicare.html">
           <img
             src={landing_category_img_03}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Tile_Desktop_Karicare_New4.jpg"
             title="landing_category_img_03"
             alt="landing_category_img_03"
-            class="desktop"
+            className="desktop"
           />
         </a>
       </div>
-      <div class="category">
+      <div className="category">
         <a href="https://www.mumstore.com.au/all-products/formula-toddler-milk/specialty.html">
           <img
             src={landing_category_img_04}
             data-src="https://cdn.mumstore.com.au/media/wysiwyg/homepage_images/Specialty.jpg"
             title="landing_category_img_04"
             alt="landing_category_img_03"
-            class="desktop"
+            className="desktop"
           />
         </a>
       </div>
     </div>
   </div>
 );
+const navToRegistration = () => {
+  console.log(this.props.history);
+};
 
 const registSection = (
   <div className="sign-up">
     <div className="img-block">
       <div className="sign-up-info">
-        <h2 class="title">Join TyreStore</h2>
+        <h2 className="title">Join TyreStore</h2>
         <Container>
           <Row>
             <Col className="col">
@@ -130,7 +134,10 @@ const registSection = (
             </Col>
           </Row>
         </Container>
-        <h2>Join TyreStore</h2>
+        <Btn clicked={navToRegistration} link="/news">
+          Register
+        </Btn>
+        <a className="button">Join TyreStore</a>
       </div>
     </div>
   </div>

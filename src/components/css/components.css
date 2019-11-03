@@ -446,6 +446,7 @@ footer p {
   margin-top: 20px;
 }
 
+/* UI css*/
 .message-wedge {
   text-align: center;
   margin: auto auto;
@@ -459,4 +460,13 @@ footer p {
   height: 70px;
   border: 3px solid #00aced;
   border-radius: 5px;
+}
+
+.btn-global {
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: #00aced;
+  border-radius: 5px;
+  padding: 7px 15px 7px 15px;
 }
