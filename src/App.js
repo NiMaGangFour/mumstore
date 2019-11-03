@@ -10,6 +10,7 @@ import Landing from "./components/Pages/Landing";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import News from "./components/Pages/News";
+import MessageWedge from "./components/component/MessageWedge";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/news" component={News} />
       </Switch>
+
+      <MessageWedge />
     </div>
   );
 }
