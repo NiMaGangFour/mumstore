@@ -6,7 +6,7 @@
 
 .row {
   max-width: 1140px;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 /*-----navigation bar----*/
@@ -88,7 +88,8 @@
   margin-bottom: 20px;
 }
 .categories-section {
-  margin: 10px 100px 10px 100px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .category {
@@ -462,11 +463,30 @@ footer p {
   border-radius: 5px;
 }
 
-.btn-global {
+.btn-link {
+  width: 30px;
   color: #fff;
   font-weight: 900;
   font-size: 20px;
   background-color: #00aced;
   border-radius: 5px;
-  padding: 7px 15px 7px 15px;
+  padding: 7px 90px 7px 90px;
+  margin-top: 90px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.btn-link:hover {
+  color: #fff;
+  background-color: #008ec2;
+  text-decoration: none;
+}
+
+.startShoppingSection {
+  margin: 20px auto 20px auto;
+}
+
+.shopping-section-h4 {
+  font-size: 22px;
+  font-weight: 700;
 }

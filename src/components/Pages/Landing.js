@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Carousel, Container, Row, Col } from "react-bootstrap";
 import { FaStar, FaShippingFast } from "react-icons/fa";
 import { FiBell } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 
 import SecHeader from "../Header/SecHeader";
 import carousel_img_1 from "../css/images/carousel_img_1.png";
@@ -11,7 +12,6 @@ import landing_category_img_01 from "../css/images/landing-category-img-01.png";
 import landing_category_img_02 from "../css/images/landing-category-img-02.png";
 import landing_category_img_03 from "../css/images/landing-category-img-03.png";
 import landing_category_img_04 from "../css/images/landing-category-img-04.png";
-import Btn from "../UI/Btn";
 
 const carousel = (
   <Carousel>
@@ -52,6 +52,17 @@ const carousel = (
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
+);
+
+const startShopping = (
+  <div>
+    <h4 className="shopping-section-h4">Start Shopping</h4>
+    <div className="startShoppingSection">
+      <NavLink className="btn-link" to="/news">
+        Register
+      </NavLink>
+    </div>
+  </div>
 );
 
 const brandSection = (
@@ -103,9 +114,6 @@ const brandSection = (
     </div>
   </div>
 );
-const navToRegistration = () => {
-  console.log(this.props.history);
-};
 
 const registSection = (
   <div className="sign-up">
@@ -134,10 +142,10 @@ const registSection = (
             </Col>
           </Row>
         </Container>
-        <Btn clicked={navToRegistration} link="/news">
+
+        <NavLink className="btn-link" to="/news">
           Register
-        </Btn>
-        <a className="button">Join TyreStore</a>
+        </NavLink>
       </div>
     </div>
   </div>
@@ -150,6 +158,7 @@ class Landing extends Component {
         <SecHeader />
         {carousel}
         <div>Landing Page</div>
+        {startShopping}
         {brandSection}
         <div>Landing Page</div>
         {registSection}
