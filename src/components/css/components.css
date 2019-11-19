@@ -490,3 +490,12 @@ footer p {
   font-size: 22px;
   font-weight: 700;
 }
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list a {
+  font-size: 30px;
+  color: #000000;
+}

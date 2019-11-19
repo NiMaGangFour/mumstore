@@ -9,7 +9,7 @@ class FooterLists extends Component {
         <Container>
           <Row>
             <Col className="col">
-              <ul>
+              <ul className="footer-list">
                 <li>
                   <NavLink to="/about">
                     <strong>Shop now</strong>
@@ -24,7 +24,7 @@ class FooterLists extends Component {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className="footer-list">
                 <li>
                   <NavLink to="/about">
                     <strong>Shop now</strong>
@@ -39,7 +39,7 @@ class FooterLists extends Component {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className="footer-list">
                 <li>
                   <NavLink to="/about">
                     <strong>Shop now</strong>
