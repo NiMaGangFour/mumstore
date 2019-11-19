@@ -11,6 +11,7 @@ import Contact from "./components/Pages/Contact";
 import News from "./components/Pages/News";
 import MessageWedge from "./components/UI/MessageWedge";
 import FooterLists from "./components/Footer/FooterLists";
+import FooterNaviBar from "./components/Footer/FooterNaviBar";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/news" component={News} />
       </Switch>
       <FooterLists />
+      <FooterNaviBar />
 
       <MessageWedge />
     </div>

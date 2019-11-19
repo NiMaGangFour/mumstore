@@ -499,3 +499,33 @@ footer p {
   font-size: 30px;
   color: #000000;
 }
+
+.footer-navi-bar {
+  background-color: #333;
+}
+
+.footer-navi-bar-ul {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.footer-navi-bar-ul li {
+  float: left;
+}
+
+.footer-navi-bar-ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer-navi-bar-ul li a:hover:not(.active) {
+  background-color: rgba(100, 255, 100, 0.2);
+}
