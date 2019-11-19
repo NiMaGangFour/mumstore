@@ -6,6 +6,11 @@ class FooterNaviBar extends Component {
       <div className="footer-navi-bar">
         <ul className="footer-navi-bar-ul">
           <li>
+            <a href="#home">Copyright © 2019 TyreStore</a>
+          </li>
+        </ul>
+        <ul className="footer-navi-bar-ul">
+          <li>
             <a href="#home">Home</a>
           </li>
           <li>
