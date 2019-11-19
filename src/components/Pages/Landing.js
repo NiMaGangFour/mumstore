@@ -160,7 +160,13 @@ class Landing extends Component {
         <div>Landing Page</div>
         {startShopping}
         {brandSection}
-        <div>Landing Page</div>
+        <div>
+          <h3>Mumstore by Nutricia</h3>
+          <p>
+            MumStore brings all of Nutricia's products together in one place
+            making life easier for mums, dads and carers. Join MumStore
+          </p>
+        </div>
         {registSection}
         <div>Landing Page</div>
       </div>
