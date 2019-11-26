@@ -42,11 +42,11 @@ class FooterLists extends Component {
               <ul className="footer-list">
                 <li>
                   <NavLink to="/about">
-                    <strong>Shop now</strong>
+                    <strong>Brands</strong>
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Brands</NavLink>
+                  <NavLink to="/contact">Official Brand Support</NavLink>
                 </li>
                 <li>
                   <NavLink to="/news">Formula & Ordinary Tire</NavLink>
