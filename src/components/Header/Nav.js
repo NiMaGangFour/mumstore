@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 
 import "../css/components.css";
-import Logo_White from "../css/images/mumstore_logo.png";
+import Logo_White from "../css/images/logoWhite.png";
 
 class Nav extends Component {
   render() {
     return (
-      <div>
+      <div className="primary-header-section">
         <ul id="navigation-items">
           <NavLink to="/">
             <li>

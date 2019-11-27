@@ -17,14 +17,18 @@
 }
 .logo_white {
   height: 92px;
-  margin: 5px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: auto;
 }
 
+.primary-header-section {
+  background-color: #2b3c90;
+}
 #navigation-items {
-  padding: 0px auto;
-  width: 80%;
-  margin-left: 10%;
+  padding: 10px auto 0 auto;
+  margin-bottom: 0 rem;
+  width: 86%;
+  margin-left: 7%;
   list-style-type: none;
   overflow: hidden;
 }
@@ -35,13 +39,13 @@
 
 #navigation-items li a {
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: #fff;
   font-size: 170%;
   font-weight: 700;
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  margin-top: 12px;
+  margin-top: 10px;
   transition: color 0.3s;
 }
 
@@ -501,7 +505,7 @@ footer p {
 }
 
 .footer-navi-bar {
-  background-color: #2b4992;
+  background-color: #2b3c90;
 }
 
 .footer-navi-bar-ul {
