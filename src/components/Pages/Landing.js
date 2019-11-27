@@ -156,7 +156,7 @@ class Landing extends Component {
     return (
       <div>
         <SecHeader />
-        {carousel}
+        <div>{carousel}</div>
         <div>Landing Page</div>
         {startShopping}
         {brandSection}
