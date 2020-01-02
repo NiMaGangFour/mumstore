@@ -16,7 +16,7 @@ class Nav extends Component {
             </li>
           </NavLink>
           <li>
-            <a>Shop Now</a>
+            <NavLink to="/">Shop Now</NavLink>
           </li>
           <li>
             <NavLink to="/about">About Us</NavLink>
