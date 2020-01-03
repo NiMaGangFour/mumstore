@@ -155,7 +155,6 @@ class Landing extends Component {
   render() {
     return (
       <div>
-        <SecHeader />
         <div>{carousel}</div>
         <div>Landing Page</div>
         {startShopping}
